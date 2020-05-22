@@ -1,0 +1,38 @@
+/*
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 5
+    Filename: fifteen.css
+    Description: The css file for the fifteen.html
+*/
+
+body{
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#puzzlearea{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tile{
+    background-image: url("pikachu.jpg");
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    font-size: 40pt;
+    cursor: default;
+}
+
+.isMovable:hover{
+    border: 5px solid red;
+    color: red;
+    cursor: pointer;
+}
